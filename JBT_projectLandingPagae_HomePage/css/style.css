@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-*{
+/* *{
   box-sizing: border-box;
-}
-body {
+} */
+/* body {
   left: 1px;
     overflow-y: hidden;
     font-family: "Poppins", sans-serif;
@@ -10,7 +10,34 @@ body {
     color: #fff;
     margin: 0;
     padding: 0;
-  }
+  } */
+  body {
+    background-image: url('../img/CUsersviktoDocumentscidsPic.jpg'); 
+    
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center -1px;
+    background-size: 1550px 750px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 154.2%;
+    color: #ffffff;
+    box-sizing: border-box;
+    background-color: #2F303A;
+    margin: 0;
+    padding: 0;
+    /* left: 1px;
+      overflow-y: hidden;
+      font-family: "Poppins", sans-serif;
+      background-color: #2F303A;
+      color: #fff;
+      margin: 0;
+      padding: 0; */
+    }
   #kidsPicMiddle{
     position: absolute;
     width: 600px;
@@ -56,13 +83,13 @@ body {
     font-weight: 500;
     font-size: 0.9rem;
     letter-spacing: 0.1rem;
-    
+    margin-top: 7px;
   }
   .navbar-brand img {
     position: absolute;
     /* height: 4rem; */
     width: 6rem;
-    top: -10px;
+    top: -4px;
   }
   .navbar-nav li {
     padding-right: 0.7rem;
