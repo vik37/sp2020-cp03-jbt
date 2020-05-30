@@ -57,7 +57,7 @@ body {
 
 #btns {
     margin-top: auto;
-    margin-left: 50%;
+    margin-left: 45%;
 }
 
 .btn-game {
@@ -85,20 +85,79 @@ body {
     margin-top: 250px;
 }
 
+
+/* setting buttons */
+
 #settings {
-    height: 50.22px;
+    height: 50px;
     width: 80px;
     border-radius: 5px 0px 0px 5px;
     background-color: #1762A7;
     position: absolute;
     top: 200px;
     right: 0px;
+    cursor: pointer;
 }
 
 #img-settings {
     position: absolute;
     top: 5px;
     left: 20px;
+}
+
+#settings2 {
+    height: 50px;
+    width: 120px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #1762A7;
+    position: absolute;
+    top: 200px;
+    right: 0px;
+    cursor: pointer;
+    display: none;
+}
+
+#img-settings2 {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+
+#languages {
+    display: flex;
+    position: absolute;
+    top: 255px;
+    right: 0px;
+}
+
+.lng {
+    height: 50px;
+    width: 80px;
+    background-color: #BC3A80;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    font-size: 22px;
+    text-decoration: underline;
+    letter-spacing: 0.09em;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    display: none;
+}
+
+#img-sound {
+    height: 50px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: #BC3A80;
+    position: absolute;
+    top: 310px;
+    right: 0px;
+    margin-top: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    display: none;
 }
 
 @media only screen and (max-width: 900px) {
