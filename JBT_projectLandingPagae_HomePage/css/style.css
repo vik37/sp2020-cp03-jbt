@@ -38,7 +38,7 @@
       margin: 0;
       padding: 0; */
     }
-  #kidsPicMiddle{
+  /* #kidsPicMiddle{
     position: absolute;
     width: 600px;
     height: 680px;
@@ -64,7 +64,7 @@
     left: -65px;
     outline: none;
     cursor: default;
-  }
+  } */
 
   .responsive {
     max-width: 100%;
@@ -90,6 +90,11 @@
     /* height: 4rem; */
     width: 6rem;
     top: -4px;
+  }
+  .jsp{
+    position: absolute;
+    left: 170px;
+    top: 20px;
   }
   .navbar-nav li {
     padding-right: 0.7rem;
